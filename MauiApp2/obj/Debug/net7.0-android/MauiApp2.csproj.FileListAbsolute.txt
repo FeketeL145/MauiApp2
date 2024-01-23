@@ -971,3 +971,4 @@ C:\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-android\android\environment.arm64-v8
 C:\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-android\android\compressed_assemblies.arm64-v8a.o
 C:\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-android\android\jni_remap.arm64-v8a.o
 C:\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-android\app_shared_libraries\arm64-v8a\libxamarin-app.so
+C:\repos\MauiApp2\MauiApp2\obj\Debug\net7.0-android\MauiApp2.sourcelink.json

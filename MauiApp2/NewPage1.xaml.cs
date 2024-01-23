@@ -76,7 +76,9 @@ public partial class NewPage1 : ContentPage
     }
     private async void BtnRendez_Clicked(object sender, EventArgs e)
     {
-        list.OrderDescending();
-        LwAdatok.ItemsSource = list;
+        var sortlist = new List<string>(list);
+        sortlist.Sort();
+
+        LwAdatok.ItemsSource = sortlist;
     }
 }
