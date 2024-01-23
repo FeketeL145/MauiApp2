@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp2.NewPage1"
+             Title="NewPage1">
+    <VerticalStackLayout>
+        <Label
+            x:Name="LSzam"
+            Text=""
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Entry
+            x:Name="EtrBe"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            />
+        <HorizontalStackLayout>
+            <Button
+    Text="Back"
+    VerticalOptions="Center"
+    HorizontalOptions="Center"
+    Clicked="BackBtn_Clicked"
+    />
+            <Button
+    x:Name="BtnFelvitel"
+    Text="Felvitel"
+    VerticalOptions="Center"
+    HorizontalOptions="Center"
+    Clicked="BtnFelvitel_Clicked"
+    />
+            <Button
+x:Name="BtnMent"
+Text="Mentés"
+VerticalOptions="Center"
+HorizontalOptions="Center"
+Clicked="BtnMent_Clicked"
+/>
+            <Button
+x:Name="BtnBetolt"
+Text="Betöltés"
+VerticalOptions="Center"
+HorizontalOptions="Center"
+Clicked="BtnBetolt_Clicked"
+/>
+        </HorizontalStackLayout>
+        <HorizontalStackLayout>
+            <Button
+x:Name="BtnKijeloltTorol"
+Text="Kijelölt törlése"
+VerticalOptions="Center"
+HorizontalOptions="Center"
+Clicked="BtnKijeloltTorol_Clicked"
+/>
+            <Button
+x:Name="BtnTeljesTorol"
+Text="Lista törlése"
+VerticalOptions="Center"
+HorizontalOptions="Center"
+Clicked="BtnTeljesTorol_Clicked"
+/>
+        </HorizontalStackLayout>
+        <HorizontalStackLayout>
+            
+            <Button
+x:Name="BtnBeszur"
+Text="Beszúrás"
+VerticalOptions="Center"
+HorizontalOptions="Center"
+Clicked="BtnBeszur_Clicked"
+/>
+            <Button
+x:Name="BtnRendez"
+Text="Rendezés"
+VerticalOptions="Center"
+HorizontalOptions="Center"
+Clicked="BtnRendez_Clicked"
+/>
+        </HorizontalStackLayout>
+        <ListView
+            x:Name="LwAdatok"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            >
+
+        </ListView>
+
+    </VerticalStackLayout>
+</ContentPage>
